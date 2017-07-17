@@ -1,0 +1,68 @@
+body, html {
+    height: 100%;
+}
+
+/* The hero image */
+.hero-image {
+    /* The image used */
+    background-image: url("images/Stanford.jpg");
+    filter: grayscale(40%);
+    /* Set a specific height */
+    height: 100%;
+    background-attachment: fixed;
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+/* Place text in the middle of the image */
+.hero-text {
+    background-attachment: fixed;
+    text-align: center;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-family: verdana;
+}
+
+.hero-image2 {
+    background-image: url("../images/collegechalk.jpg");
+}
+.hero-text2 {
+    color: white;
+}
+
+.headtext {
+    font-size: 2em;
+}
+
+.mulah {
+    margin: 20px 0px 0px 0px;
+}
+
+.btn-primary {
+    border-radius: 2px;
+    
+}
+
+.signup {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.centertext {
+    margin-right: 40px;
+    float: right;
+    font-size: 5em;
+}
+
+.detailtext {
+    margin-top: 70px;
+    font-size: 2em;
+}

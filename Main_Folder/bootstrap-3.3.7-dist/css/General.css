@@ -1,0 +1,85 @@
+#colleges_body {
+    /* Applies background image behind everything else, and allows for it to
+    work on internet explorer and other browsers, and fixes the position 
+    of the background image*/
+    background: url('/214/bootstrap-3.3.7-dist/css/background_bottom.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#colleges_row {
+    /* Creates a box with margins and padding that styles deadlines*/
+    border: 2.5px black;
+    border-radius: 10px;
+    background: rgba(200,200,200,0.85);
+    padding: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 20px;
+}
+
+#special_colleges_row{
+    /* Fixes issues encountered with certain places where deadline boxes are placed*/
+    border: 2.5px black;
+    border-radius: 10px;
+    background: rgba(200,200,200,0.85);
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+#colleges_row_edge{
+    /* Fixes issues encountered with certain places where deadline boxes are placed on edge*/
+    border: 2.5px black;
+    border-radius: 10px;
+    background: rgba(200,200,200,0.85);
+    padding: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#colleges_row:hover{
+    background: rgba(225,225,225,1);
+    opacity: 1; 
+    filter: alpha(opacity=100);
+}
+
+#images_row{
+    padding: 20px;
+}
+#random_margin{
+    margin-top: 28px;
+}
+
+#spiffy_header{
+    /* Creates nice looking header with a background image*/
+    background: url('/214/bootstrap-3.3.7-dist/css/colorful-squares.jpg');
+    background-repeat: repeat-y;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+
+/* centered columns styles */
+.row-centered {
+    text-align:center;
+}
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    margin-right:-4px;
+}
